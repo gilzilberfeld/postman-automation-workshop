@@ -1,0 +1,2026 @@
+{
+	"info": {
+		"_postman_id": "942e0ec1-eaac-4d38-968d-9991c3da8d73",
+		"name": "Star Trek",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2056961"
+	},
+	"item": [
+		{
+			"name": "Search for Spock",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?title=Spock&name=Spock",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Spock"
+						},
+						{
+							"key": "name",
+							"value": "Spock"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Spock",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?title=Spock&name=Spock",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "Spock"
+								},
+								{
+									"key": "name",
+									"value": "Spock"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 09:22:59 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"page\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 50,\n        \"numberOfElements\": 5,\n        \"totalElements\": 5,\n        \"totalPages\": 1,\n        \"firstPage\": true,\n        \"lastPage\": true\n    },\n    \"sort\": {\n        \"clauses\": []\n    },\n    \"characters\": [\n        {\n            \"uid\": \"CHMA0000009075\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": true,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000115358\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": true\n        },\n        {\n            \"uid\": \"CHMA0000028941\",\n            \"name\": \"Benjamin Spock\",\n            \"gender\": null,\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000202697\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2263,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": \"S 179-276 SP\",\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000054323\",\n            \"name\": \"Spock Two\",\n            \"gender\": null,\n            \"yearOfBirth\": 2269,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for Kirk",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?title=Spock&name=Kirk",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Spock"
+						},
+						{
+							"key": "name",
+							"value": "Kirk"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Kirk",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?title=Spock&name=Kirk",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "Spock"
+								},
+								{
+									"key": "name",
+									"value": "Kirk"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 09:23:10 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"page\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 50,\n        \"numberOfElements\": 15,\n        \"totalElements\": 15,\n        \"totalPages\": 1,\n        \"firstPage\": true,\n        \"lastPage\": true\n    },\n    \"sort\": {\n        \"clauses\": []\n    },\n    \"characters\": [\n        {\n            \"uid\": \"CHMA0000065164\",\n            \"name\": \"Peter Kirk\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000115229\",\n            \"name\": \"James T. Kirk\",\n            \"gender\": null,\n            \"yearOfBirth\": 2233,\n            \"monthOfBirth\": 1,\n            \"dayOfBirth\": 4,\n            \"placeOfBirth\": \"Medical shuttle 37, space\",\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": \"SINGLE\",\n            \"serialNumber\": \"SC937-0176CEC\",\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": true\n        },\n        {\n            \"uid\": \"CHMA0000146054\",\n            \"name\": \"Winona Kirk\",\n            \"gender\": null,\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": true\n        },\n        {\n            \"uid\": \"CHMA0000011523\",\n            \"name\": \"James T. Kirk\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2233,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2267,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": 180,\n            \"weight\": 77,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": \"SINGLE\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": true,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000126904\",\n            \"name\": \"George Kirk\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2203,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2265,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000013096\",\n            \"name\": \"George Samuel Kirk\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2267,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000115406\",\n            \"name\": \"Tiberius Kirk\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000236683\",\n            \"name\": \"J. Kirk\",\n            \"gender\": null,\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000007524\",\n            \"name\": \"James T. Kirk\",\n            \"gender\": null,\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2266,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000068344\",\n            \"name\": \"George Kirk\",\n            \"gender\": null,\n            \"yearOfBirth\": 2203,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2233,\n            \"monthOfDeath\": 1,\n            \"dayOfDeath\": 4,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": true\n        },\n        {\n            \"uid\": \"CHMA0000147243\",\n            \"name\": \"James T. Kirk\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2233,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2293,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": \"Veridian III\",\n            \"height\": 178,\n            \"weight\": 77,\n            \"deceased\": true,\n            \"bloodType\": null,\n            \"maritalStatus\": \"WIDOWED\",\n            \"serialNumber\": \"SC937-0176CEC\",\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000013101\",\n            \"name\": \"Aurelan Kirk\",\n            \"gender\": \"F\",\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2367,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000115222\",\n            \"name\": \"Winona Kirk\",\n            \"gender\": \"F\",\n            \"yearOfBirth\": 2210,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2284,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000232479\",\n            \"name\": \"J. Kirk\",\n            \"gender\": null,\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": true,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000012938\",\n            \"name\": \"Jackson Roykirk\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2022,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for Spock again",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?title=Kirk&name=Spock",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Kirk"
+						},
+						{
+							"key": "name",
+							"value": "Spock"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Spock again",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?title=Kirk&name=Spock",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "Kirk"
+								},
+								{
+									"key": "name",
+									"value": "Spock"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 09:23:21 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"page\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 50,\n        \"numberOfElements\": 5,\n        \"totalElements\": 5,\n        \"totalPages\": 1,\n        \"firstPage\": true,\n        \"lastPage\": true\n    },\n    \"sort\": {\n        \"clauses\": []\n    },\n    \"characters\": [\n        {\n            \"uid\": \"CHMA0000009075\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": true,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000115358\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": true\n        },\n        {\n            \"uid\": \"CHMA0000028941\",\n            \"name\": \"Benjamin Spock\",\n            \"gender\": null,\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000202697\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2263,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": \"S 179-276 SP\",\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000054323\",\n            \"name\": \"Spock Two\",\n            \"gender\": null,\n            \"yearOfBirth\": 2269,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for Spock without title",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?name=Spock",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Spock"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Spock without title",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?name=Spock",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Spock"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 09:23:34 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"page\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 50,\n        \"numberOfElements\": 5,\n        \"totalElements\": 5,\n        \"totalPages\": 1,\n        \"firstPage\": true,\n        \"lastPage\": true\n    },\n    \"sort\": {\n        \"clauses\": []\n    },\n    \"characters\": [\n        {\n            \"uid\": \"CHMA0000009075\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": true,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000115358\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": true\n        },\n        {\n            \"uid\": \"CHMA0000028941\",\n            \"name\": \"Benjamin Spock\",\n            \"gender\": null,\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000202697\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2263,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": \"S 179-276 SP\",\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000054323\",\n            \"name\": \"Spock Two\",\n            \"gender\": null,\n            \"yearOfBirth\": 2269,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for Spock from the Voyage Home",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?title=voyage&name=Spock",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "voyage"
+						},
+						{
+							"key": "name",
+							"value": "Spock"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Spock from the Voyage Home",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?title=voyage&name=Spock",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "voyage"
+								},
+								{
+									"key": "name",
+									"value": "Spock"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 09:23:45 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"page\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 50,\n        \"numberOfElements\": 5,\n        \"totalElements\": 5,\n        \"totalPages\": 1,\n        \"firstPage\": true,\n        \"lastPage\": true\n    },\n    \"sort\": {\n        \"clauses\": []\n    },\n    \"characters\": [\n        {\n            \"uid\": \"CHMA0000009075\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": true,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000115358\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": true\n        },\n        {\n            \"uid\": \"CHMA0000028941\",\n            \"name\": \"Benjamin Spock\",\n            \"gender\": null,\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000202697\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2263,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": \"S 179-276 SP\",\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000054323\",\n            \"name\": \"Spock Two\",\n            \"gender\": null,\n            \"yearOfBirth\": 2269,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for Spock from the Voyage Home II",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?title=voyage%20home&name=Spock",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "voyage%20home"
+						},
+						{
+							"key": "name",
+							"value": "Spock"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Spock from the Voyage Home II",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?title=voyage%20home&name=Spock",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "voyage%20home"
+								},
+								{
+									"key": "name",
+									"value": "Spock"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 09:24:19 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"page\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 50,\n        \"numberOfElements\": 5,\n        \"totalElements\": 5,\n        \"totalPages\": 1,\n        \"firstPage\": true,\n        \"lastPage\": true\n    },\n    \"sort\": {\n        \"clauses\": []\n    },\n    \"characters\": [\n        {\n            \"uid\": \"CHMA0000009075\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": true,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000115358\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": true\n        },\n        {\n            \"uid\": \"CHMA0000028941\",\n            \"name\": \"Benjamin Spock\",\n            \"gender\": null,\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000202697\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2263,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": \"S 179-276 SP\",\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000054323\",\n            \"name\": \"Spock Two\",\n            \"gender\": null,\n            \"yearOfBirth\": 2269,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for Spock from the Voyage Home with Error",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?title=the%voyage%20home&name=Spock",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "the%voyage%20home"
+						},
+						{
+							"key": "name",
+							"value": "Spock"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Spock from the Voyage Home with Error",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?title=the%voyage%20home&name=Spock",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "the%voyage%20home"
+								},
+								{
+									"key": "name",
+									"value": "Spock"
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 09:24:28 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"timestamp\": \"2022-03-08T09:24:28.925+0000\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"exception\": \"java.lang.RuntimeException\",\n    \"message\": \"Invalid URL encoding: not a valid digit (radix 16): 118\",\n    \"path\": \"/api/v1/rest/character/search\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for Spock from the Voyage Home with Fix",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?title=the%20voyage%20home&name=Spock",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "the%20voyage%20home"
+						},
+						{
+							"key": "name",
+							"value": "Spock"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Spock from the Voyage Home with Fix",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?title=the%20voyage%20home&name=Spock",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "the%20voyage%20home"
+								},
+								{
+									"key": "name",
+									"value": "Spock"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 09:24:38 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"page\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 50,\n        \"numberOfElements\": 5,\n        \"totalElements\": 5,\n        \"totalPages\": 1,\n        \"firstPage\": true,\n        \"lastPage\": true\n    },\n    \"sort\": {\n        \"clauses\": []\n    },\n    \"characters\": [\n        {\n            \"uid\": \"CHMA0000009075\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": true,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000115358\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": true\n        },\n        {\n            \"uid\": \"CHMA0000028941\",\n            \"name\": \"Benjamin Spock\",\n            \"gender\": null,\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000202697\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2263,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": \"S 179-276 SP\",\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000054323\",\n            \"name\": \"Spock Two\",\n            \"gender\": null,\n            \"yearOfBirth\": 2269,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for Spock with year of birth",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?name=spock&yearOfBirth=2269",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "spock"
+						},
+						{
+							"key": "yearOfBirth",
+							"value": "2269"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Spock with year of birth",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?name=spock&yearOfBirth=2269",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "spock"
+								},
+								{
+									"key": "yearOfBirth",
+									"value": "2269"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 09:24:53 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"page\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 50,\n        \"numberOfElements\": 5,\n        \"totalElements\": 5,\n        \"totalPages\": 1,\n        \"firstPage\": true,\n        \"lastPage\": true\n    },\n    \"sort\": {\n        \"clauses\": []\n    },\n    \"characters\": [\n        {\n            \"uid\": \"CHMA0000009075\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": true,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000115358\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": true\n        },\n        {\n            \"uid\": \"CHMA0000028941\",\n            \"name\": \"Benjamin Spock\",\n            \"gender\": null,\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000202697\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2263,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": \"S 179-276 SP\",\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000054323\",\n            \"name\": \"Spock Two\",\n            \"gender\": null,\n            \"yearOfBirth\": 2269,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for Spock with marital status",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?name=spock&maritalStatus=MARRIED",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "spock"
+						},
+						{
+							"key": "maritalStatus",
+							"value": "MARRIED"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Spock with marital status",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?name=spock&maritalStatus=MARRIED",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "spock"
+								},
+								{
+									"key": "maritalStatus",
+									"value": "MARRIED"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 09:25:06 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"page\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 50,\n        \"numberOfElements\": 5,\n        \"totalElements\": 5,\n        \"totalPages\": 1,\n        \"firstPage\": true,\n        \"lastPage\": true\n    },\n    \"sort\": {\n        \"clauses\": []\n    },\n    \"characters\": [\n        {\n            \"uid\": \"CHMA0000009075\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": true,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000115358\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": true\n        },\n        {\n            \"uid\": \"CHMA0000028941\",\n            \"name\": \"Benjamin Spock\",\n            \"gender\": null,\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000202697\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2263,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": \"S 179-276 SP\",\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000054323\",\n            \"name\": \"Spock Two\",\n            \"gender\": null,\n            \"yearOfBirth\": 2269,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for Spock Two",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?name=Spock+Two",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Spock+Two"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Spock Two",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?name=Spock+Two",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Spock+Two"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 09:25:17 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"page\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 50,\n        \"numberOfElements\": 1,\n        \"totalElements\": 1,\n        \"totalPages\": 1,\n        \"firstPage\": true,\n        \"lastPage\": true\n    },\n    \"sort\": {\n        \"clauses\": []\n    },\n    \"characters\": [\n        {\n            \"uid\": \"CHMA0000054323\",\n            \"name\": \"Spock Two\",\n            \"gender\": null,\n            \"yearOfBirth\": 2269,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for SpockTwo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?name=SpockTwo",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "SpockTwo"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for SpockTwo",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?name=SpockTwo",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "SpockTwo"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 09:25:26 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"page\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 50,\n        \"numberOfElements\": 0,\n        \"totalElements\": 0,\n        \"totalPages\": 0,\n        \"firstPage\": true,\n        \"lastPage\": true\n    },\n    \"sort\": {\n        \"clauses\": []\n    },\n    \"characters\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for Spock from the Mirror Universe",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?name=Spock&mirror=true",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Spock"
+						},
+						{
+							"key": "mirror",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Spock from the Mirror Universe",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?name=Spock&mirror=true",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Spock"
+								},
+								{
+									"key": "mirror",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 09:25:35 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"page\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 50,\n        \"numberOfElements\": 1,\n        \"totalElements\": 1,\n        \"totalPages\": 1,\n        \"firstPage\": true,\n        \"lastPage\": true\n    },\n    \"sort\": {\n        \"clauses\": []\n    },\n    \"characters\": [\n        {\n            \"uid\": \"CHMA0000009075\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": true,\n            \"alternateReality\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for Spock not from the Mirror Universe",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?name=Spock&mirror=false",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Spock"
+						},
+						{
+							"key": "mirror",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Spock not from the Mirror Universe",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?name=Spock&mirror=false",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Spock"
+								},
+								{
+									"key": "mirror",
+									"value": "false"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 10:11:21 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"page\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 50,\n        \"numberOfElements\": 4,\n        \"totalElements\": 4,\n        \"totalPages\": 1,\n        \"firstPage\": true,\n        \"lastPage\": true\n    },\n    \"sort\": {\n        \"clauses\": []\n    },\n    \"characters\": [\n        {\n            \"uid\": \"CHMA0000115358\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": true\n        },\n        {\n            \"uid\": \"CHMA0000028941\",\n            \"name\": \"Benjamin Spock\",\n            \"gender\": null,\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000202697\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2263,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": \"S 179-276 SP\",\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000054323\",\n            \"name\": \"Spock Two\",\n            \"gender\": null,\n            \"yearOfBirth\": 2269,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for Spock not from the Mirror With error",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?name=Spock&mirror=fal",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Spock"
+						},
+						{
+							"key": "mirror",
+							"value": "fal"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Spock not from the Mirror With error",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?name=Spock&mirror=fal",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Spock"
+								},
+								{
+									"key": "mirror",
+									"value": "fal"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 10:11:29 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"page\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 50,\n        \"numberOfElements\": 4,\n        \"totalElements\": 4,\n        \"totalPages\": 1,\n        \"firstPage\": true,\n        \"lastPage\": true\n    },\n    \"sort\": {\n        \"clauses\": []\n    },\n    \"characters\": [\n        {\n            \"uid\": \"CHMA0000115358\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": true\n        },\n        {\n            \"uid\": \"CHMA0000028941\",\n            \"name\": \"Benjamin Spock\",\n            \"gender\": null,\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000202697\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2263,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": \"S 179-276 SP\",\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000054323\",\n            \"name\": \"Spock Two\",\n            \"gender\": null,\n            \"yearOfBirth\": 2269,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for Spock from the Mirror With error",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?name=Spock&mirror=tr",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Spock"
+						},
+						{
+							"key": "mirror",
+							"value": "tr"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Spock from the Mirror With error",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?name=Spock&mirror=tr",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Spock"
+								},
+								{
+									"key": "mirror",
+									"value": "tr"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 10:11:37 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"page\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 50,\n        \"numberOfElements\": 4,\n        \"totalElements\": 4,\n        \"totalPages\": 1,\n        \"firstPage\": true,\n        \"lastPage\": true\n    },\n    \"sort\": {\n        \"clauses\": []\n    },\n    \"characters\": [\n        {\n            \"uid\": \"CHMA0000115358\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": true\n        },\n        {\n            \"uid\": \"CHMA0000028941\",\n            \"name\": \"Benjamin Spock\",\n            \"gender\": null,\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000202697\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2263,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": \"S 179-276 SP\",\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000054323\",\n            \"name\": \"Spock Two\",\n            \"gender\": null,\n            \"yearOfBirth\": 2269,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for Spock lower case",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?name=spock",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "spock"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Spock lower case",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?name=spock",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "spock"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 10:11:49 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"page\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 50,\n        \"numberOfElements\": 5,\n        \"totalElements\": 5,\n        \"totalPages\": 1,\n        \"firstPage\": true,\n        \"lastPage\": true\n    },\n    \"sort\": {\n        \"clauses\": []\n    },\n    \"characters\": [\n        {\n            \"uid\": \"CHMA0000009075\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": true,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000115358\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": true\n        },\n        {\n            \"uid\": \"CHMA0000028941\",\n            \"name\": \"Benjamin Spock\",\n            \"gender\": null,\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000202697\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2263,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": \"S 179-276 SP\",\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000054323\",\n            \"name\": \"Spock Two\",\n            \"gender\": null,\n            \"yearOfBirth\": 2269,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for Spock upper case",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?name=SPOCK",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "SPOCK"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Spock upper case",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?name=SPOCK",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "SPOCK"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 10:11:58 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"page\": {\n        \"pageNumber\": 0,\n        \"pageSize\": 50,\n        \"numberOfElements\": 5,\n        \"totalElements\": 5,\n        \"totalPages\": 1,\n        \"firstPage\": true,\n        \"lastPage\": true\n    },\n    \"sort\": {\n        \"clauses\": []\n    },\n    \"characters\": [\n        {\n            \"uid\": \"CHMA0000009075\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": true,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000115358\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": true\n        },\n        {\n            \"uid\": \"CHMA0000028941\",\n            \"name\": \"Benjamin Spock\",\n            \"gender\": null,\n            \"yearOfBirth\": null,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": null,\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000202697\",\n            \"name\": \"Spock\",\n            \"gender\": \"M\",\n            \"yearOfBirth\": 2230,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": 2263,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": true,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": \"MARRIED\",\n            \"serialNumber\": \"S 179-276 SP\",\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        },\n        {\n            \"uid\": \"CHMA0000054323\",\n            \"name\": \"Spock Two\",\n            \"gender\": null,\n            \"yearOfBirth\": 2269,\n            \"monthOfBirth\": null,\n            \"dayOfBirth\": null,\n            \"placeOfBirth\": null,\n            \"yearOfDeath\": null,\n            \"monthOfDeath\": null,\n            \"dayOfDeath\": null,\n            \"placeOfDeath\": null,\n            \"height\": null,\n            \"weight\": null,\n            \"deceased\": null,\n            \"bloodType\": \"T_NEGATIVE\",\n            \"maritalStatus\": null,\n            \"serialNumber\": null,\n            \"hologramActivationDate\": null,\n            \"hologramStatus\": null,\n            \"hologramDateStatus\": null,\n            \"hologram\": false,\n            \"fictionalCharacter\": false,\n            \"mirror\": false,\n            \"alternateReality\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Search for Spock in XML",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://stapi.co/api/v1/rest/character/search?name=Spock",
+					"protocol": "http",
+					"host": [
+						"stapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rest",
+						"character",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Spock"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search for Spock in XML",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/xml",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/character/search?name=Spock",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"character",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Spock"
+								}
+							]
+						}
+					},
+					"status": "Not Acceptable",
+					"code": 406,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Mar 2022 16:47:10 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
