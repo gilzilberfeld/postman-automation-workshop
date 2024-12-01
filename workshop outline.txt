@@ -1,0 +1,49 @@
+Postman Automation Workshop
+6hrs
+9:00-10:30 	Part I (1:30)
+10:30-10:45 Break
+10:45-12:00 Part II (1:15)
+12:00-12:45 Break
+12:45-15:00 Part III (2:15)
+
+
+Postman automation
+	Using variables between calls
+	Demo
+	Chaining requests
+	Demo
+	Pre- and Post- requests code
+	Demo
+	EX1
+	Tests in Postman
+	Demo
+	Using PostBot, the AI assistant
+	Demo
+	EX2	
+Calling external services
+	Demo
+Data-driven automation
+	Demo
+	Ex3
+CLI integration with Newman
+	Demo
+Code generation of calls 
+	Snippets - Client code 
+		Demo
+----------------------
+	Create API / Import
+		OpenAPI / Swagger
+		Demo
+	Server code
+		Demo
+Exploratory Testing with Postman
+Introduction to exploration in testing
+	Session-based testing
+	Using charters
+	Using Postman for API exploration
+	Preparations and reporting
+	Demo + Ex5
+	
+Advanced scenarios
+Capturing HTTP/S requests using proxies
+GitHub Action integration
